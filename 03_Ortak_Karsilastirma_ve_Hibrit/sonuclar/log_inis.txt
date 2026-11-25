@@ -1,0 +1,89 @@
+inis GA 1 1.354777
+inis GA 2 1.354735
+inis GA 3 1.354177
+inis GA 4 1.354491
+inis GA 5 1.353911
+inis GA 6 1.355456
+inis GA 7 1.35548
+inis GA 8 1.353907
+inis GA 9 1.354274
+inis GA 10 1.35434
+inis ACO_R 1 1.354795
+inis ACO_R 2 1.353856
+inis ACO_R 3 1.353851
+inis ACO_R 4 1.35383
+inis ACO_R 5 1.35481
+inis ACO_R 6 1.353873
+inis ACO_R 7 1.353847
+inis ACO_R 8 1.354797
+inis ACO_R 9 1.353875
+inis ACO_R 10 1.353904
+inis PSO 1 1.355499
+inis PSO 2 1.354788
+inis PSO 3 1.354119
+inis PSO 4 1.38776
+inis PSO 5 1.354567
+inis PSO 6 1.354078
+inis PSO 7 1.38775
+inis PSO 8 1.354295
+inis PSO 9 1.354909
+inis PSO 10 1.354496
+inis GWO 1 1.353931
+inis GWO 2 1.354277
+inis GWO 3 1.353982
+inis GWO 4 1.353927
+inis GWO 5 1.354587
+inis GWO 6 1.353949
+inis GWO 7 1.354153
+inis GWO 8 1.354005
+inis GWO 9 1.355525
+inis GWO 10 1.35433
+inis GA-ACO_R 1 1.35398
+inis GA-ACO_R 2 1.353857
+inis GA-ACO_R 3 1.353964
+inis GA-ACO_R 4 1.354796
+inis GA-ACO_R 5 1.353977
+inis GA-ACO_R 6 1.353817
+inis GA-ACO_R 7 1.353902
+inis GA-ACO_R 8 1.353716
+inis GA-ACO_R 9 1.354814
+inis GA-ACO_R 10 1.3548
+inis PSO-GWO 1 1.354111
+inis PSO-GWO 2 1.354052
+inis PSO-GWO 3 1.354076
+inis PSO-GWO 4 1.354015
+inis PSO-GWO 5 1.353987
+inis PSO-GWO 6 1.354172
+inis PSO-GWO 7 1.354134
+inis PSO-GWO 8 1.354044
+inis PSO-GWO 9 1.354202
+inis PSO-GWO 10 1.35388
+inis Rastgele Arama 1 1.502127
+inis Rastgele Arama 2 1.481153
+inis Rastgele Arama 3 1.447341
+inis Rastgele Arama 4 1.528848
+inis Rastgele Arama 5 1.423281
+inis Rastgele Arama 6 1.490103
+inis Rastgele Arama 7 1.488756
+inis Rastgele Arama 8 1.42885
+inis Rastgele Arama 9 1.471721
+inis Rastgele Arama 10 1.488422
+                    min     mean      std      max  J_ort_300  J_ort_900  eval_%1_ort basari_%1  sure_ort_s  p_eniyi_ile  ort_sira
+yontem                                                                                                                            
+GA              1.35391  1.35455  0.00056  1.35548    1.43754    1.35920        663.0     10/10     3.67011      0.02113       4.0
+ACO_R           1.35383  1.35414  0.00045  1.35481    1.40315    1.35560        546.0     10/10     2.66626      0.16197       2.6
+PSO             1.35408  1.36123  0.01399  1.38776    1.41182    1.36905        900.0      8/10     3.40806      0.00131       5.2
+GWO             1.35393  1.35427  0.00049  1.35553    1.37255    1.35657        387.0     10/10     2.84180      0.79134       3.4
+GA-ACO_R        1.35372  1.35416  0.00045  1.35481    1.43754    1.35656        645.0     10/10     2.69888      0.24132       2.7
+PSO-GWO         1.35388  1.35407  0.00009  1.35420    1.40172    1.36217        756.0     10/10     3.57414          NaN       3.1
+Rastgele Arama  1.42328  1.47506  0.03308  1.52885    1.53243    1.49987          NaN      0/10     3.33245      0.00018       NaN
+Friedman FriedmanchisquareResult(statistic=np.float64(13.599999999999994), pvalue=np.float64(0.01836019640951947))
+           yontem     Kp1     Ki1     Kd1     Kp2     Ki2    Kd2  J_test  IAE_ort  v_temas_ort  v_temas_maks  guvenli_inis_orani  yakit_ort_ton  sure_ort  inemedi
+0      Manuel PID  1.0000  0.1000  0.1000  1.0000  0.1000  0.100  2.2569  64.6512       1.8060        2.9535                 1.0        55.8480   23.7675        0
+1              GA  2.4815  1.4183  0.3382  0.9091  0.7034  0.000  1.3477  33.3710       1.1793        1.7006                 1.0        56.9296   24.8548        0
+2           ACO_R  2.4928  1.4295  0.3555  0.9039  0.7006  0.000  1.3478  33.3603       1.1815        1.7035                 1.0        56.9272   24.8537        0
+3             PSO  2.4654  1.3886  0.3161  0.8920  0.6457  0.000  1.3477  33.5227       1.1962        1.7251                 1.0        56.9268   24.8556        0
+4             GWO  2.4840  1.4204  0.3449  0.9066  0.7031  0.000  1.3478  33.3746       1.1801        1.7020                 1.0        56.9285   24.8541        0
+5        GA-ACO_R  2.4320  1.3967  0.2921  0.9018  0.6990  0.000  1.3488  33.6324       1.1828        1.7049                 1.0        56.9272   24.8532        0
+6         PSO-GWO  2.4937  1.4197  0.3564  0.8930  0.6970  0.000  1.3481  33.4598       1.1860        1.7101                 1.0        56.9240   24.8509        0
+7  Rastgele Arama  5.2296  4.3946  0.5859  0.9113  0.7023  0.033  1.4129  33.1488       1.1827        1.6706                 1.0        56.9750   24.9052        0
