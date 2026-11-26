@@ -1,0 +1,24 @@
+numpy
+pandas
+matplotlib
+scipy
+
+
+deneyler.py başlar
+  ├─ config okunur
+  ├─ model import edilir
+  │    └─ referans import edilir → CSV okunur, 3 hedef yol hazırlanır (REFS)
+  │    └─ VREF, AREF, SG tabloları hazırlanır
+  ├─ optimizasyon import edilir
+  ├─ GA × 10 koşu, Karınca × 10, rastgele × 10 → her biri puan makinesine soruyor
+  ├─ istatistik testi
+  ├─ en iyi ayar 200 yeni senaryoda test edilir
+  └─ sonuclar/ klasörüne CSV ve JSON yazılır
+
+grafikler.py başlar
+  ├─ config, referans, model import edilir
+  ├─ deneyler'den sadece 3 sabit alınır (optimizasyon tekrar ÇALIŞMAZ)
+  ├─ sonuclar/*.csv okunur
+  └─ 5 şekil çizilip sonuclar/sekiller/ klasörüne kaydedilir
+
+Dikkat: grafikler.py, deneyler.py’nin ürettiği dosyalara ihtiyaç duyuyor. Önce deneyler.py çalışmazsa grafikler.py hata verir.
